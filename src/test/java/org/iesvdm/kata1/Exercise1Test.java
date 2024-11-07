@@ -23,7 +23,7 @@ public class Exercise1Test extends PetDomainForKata
         var expectedFirstNames = Arrays.asList("Mary", "Bob", "Ted", "Jake", "Barry", "Terry", "Harry", "John");
         Assertions.assertIterableEquals(expectedFirstNames, firstNames);
     }
-
+ 
     @Test
     @Tag("KATA")
     public void getNamesOfMarySmithsPets()
